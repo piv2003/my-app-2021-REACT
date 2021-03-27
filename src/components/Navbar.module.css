@@ -1,0 +1,19 @@
+.nav {
+    grid-area: n;
+    background-color: lightyellow;
+}
+.nav-list {
+    list-style: none;
+}
+
+.item {
+    color:white;
+}
+
+.item:hover {
+    background-color: aqua;
+}
+
+.item:active {
+    background-color: lightsalmon;
+}
