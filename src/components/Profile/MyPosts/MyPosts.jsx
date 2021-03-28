@@ -12,9 +12,8 @@ return (
         </div>
 
         <div className={s.posts}>
-            <Post />
-            <Post />
-
+            <Post message = 'Hi, how are you?' like = '10'/>
+            <Post message = 'It is my first post.' like = '17'/>
         </div>
     </div> )
 }
