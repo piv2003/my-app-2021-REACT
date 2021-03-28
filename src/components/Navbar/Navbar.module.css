@@ -1,7 +1,12 @@
 .nav {
     grid-area: n;
     background-color: lightyellow;
+    transition-duration: 1s;
 }
+.nav:hover {
+    background-color: lightseagreen;
+}
+
 .nav-list {
     list-style: none;
 }
@@ -15,5 +20,6 @@
 }
 
 .item:active {
-    background-color: lightsalmon;
+    background-color: lightpink;
 }
+
