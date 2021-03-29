@@ -5,13 +5,15 @@ const Post = (props) => {
 
 return (
     <div className={s.item}>
-        <img src='./img/avatar1.jpg'/>
-        <div>
+        <img src='./img/avatar1.jpg' alt='avatar'/>
+        <div className={s.color}>
             {props.message}
-            <br />
-            <span>Like </span>
+        </div>
+        <div>
+            <span className={s.color_like}>Like </span>
             {props.like}
         </div>
+        <br />
     </div>
 )
 }

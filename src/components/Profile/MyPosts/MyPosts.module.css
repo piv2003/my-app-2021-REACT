@@ -1,8 +1,18 @@
 
-/*.item {*/
-/*    color:greenyellow;*/
-/*}*/
-
 .item img {
-    width: 70px;
+    width: 120px;
+}
+
+.content {
+    display:flex;
+    align-content: flex-start;
+    align-self: center;
+}
+
+.size_textarea {
+    font-size: 14px;
+}
+
+.color_button {
+    background-color: turquoise ;
 }
