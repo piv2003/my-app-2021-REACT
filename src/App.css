@@ -10,8 +10,14 @@
   /*grid-gap: 10px;*/
 }
 
+.app-wrapper-content {
+  grid-area: c;
+  background-color: hotpink;
+}
 
-
+.mersedes img{
+  height: 70px;
+}
 
 
 

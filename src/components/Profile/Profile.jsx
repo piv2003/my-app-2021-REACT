@@ -6,7 +6,7 @@ import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
 return (
-    <aside className={s.content}>
+    <aside>
         <div>
             <img src='https://kuku.travel/wp-content/uploads/2017/08/Plage-de-Palombaggia.jpg' alt='beach'/>
         </div>
