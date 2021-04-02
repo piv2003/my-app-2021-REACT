@@ -3,7 +3,7 @@ import s from './Dialogs.module.css'
 
 const Dialogs = (props) => {
     return (
-        <div>
+        <div className={s.color_item}>
             Dialogs
         </div>
     )
