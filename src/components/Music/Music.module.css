@@ -1,4 +1,4 @@
-.color_item {
+.music_color {
     display: block;
     color: white;
     font-size: 20px;
@@ -7,6 +7,6 @@
     text-align: center;
 }
 
-.dialogs_size img{
+.music_size img {
     width: 450px;
 }

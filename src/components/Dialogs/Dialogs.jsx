@@ -3,8 +3,13 @@ import s from './Dialogs.module.css'
 
 const Dialogs = (props) => {
     return (
-        <div className={s.color_item}>
-            Dialogs
+        <div>
+            <div className={s.dialogs_size}>
+                <img src='img/dialog.jpg' alt='dialogs'/>
+            </div>
+            <div  className={s.color_item}>
+                Dialogs
+            </div>
         </div>
     )
 }

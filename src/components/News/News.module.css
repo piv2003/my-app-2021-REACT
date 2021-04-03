@@ -1,4 +1,4 @@
-.color_item {
+.news_color {
     display: block;
     color: white;
     font-size: 20px;
@@ -7,6 +7,6 @@
     text-align: center;
 }
 
-.dialogs_size img{
-    width: 450px;
+.news_size img{
+    height: 450px;
 }
