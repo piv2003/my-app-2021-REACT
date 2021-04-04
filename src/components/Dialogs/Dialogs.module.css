@@ -10,3 +10,20 @@
 .dialogs_size img{
     width: 450px;
 }
+
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 2fr 8fr;
+}
+
+.dialogsItems {
+    padding: 10px;
+}
+
+.dialogsItems .active{
+    color: gold;
+}
+
+.messages {
+    padding: 10px;
+}
