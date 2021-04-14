@@ -3,7 +3,32 @@
     background-color: deeppink;
 }
 
-.header img {
-    /*width: 425px;*/
-    /*height:61px;*/
+.header_header {
+    width: 1200px;
+    height:60px;
+    max-width: 1200px;
+    background: linear-gradient(crimson, gold, yellowgreen, teal, crimson);
+    /*opacity: 0.1;*/
+    background-position: 0 0;
+    border-radius: 10px;
+    border: 3px solid white;
+    animation: background 5s infinite alternate;
+    opacity: 0.9;
+}
+
+.header_text {
+    margin: 0;
+    padding: 0;
+    /*color: blueviolet ;*/
+    color: #333333;
+    font-size: 38px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+@keyframes background {
+    100% {
+        background-position: 0 300px;
+    }
 }

@@ -10,8 +10,8 @@ return (
             {props.message}
         </div>
         <div>
-            <span className={s.color_like}>Like </span>
-            {props.like}
+            <span className={s.color_like}>Like: </span>
+            {props.likesCount}
         </div>
         <br />
     </div>

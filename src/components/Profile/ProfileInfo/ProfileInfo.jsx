@@ -1,6 +1,5 @@
 import React from  'react';
 import s from './ProfileInfo.module.css';
-// import MyPosts from "./MyPosts/MyPosts";
 
 const ProfileInfo = () => {
 return (
@@ -9,10 +8,9 @@ return (
             <img src='img/images.png' alt='logo'/>
         </div>
         <div className={s.descriptionBlock}>
-            <img src='img/island.jpg' alt='beach'/>
+            <img src='img/island.jpg' alt='beach'/><br />
             AVA+Description
         </div>
-        {/*<MyPosts/>*/}
     </div>
 )
 }

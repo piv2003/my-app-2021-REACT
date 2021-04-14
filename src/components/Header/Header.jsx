@@ -3,7 +3,7 @@ import s from './Header.module.css';
 
 const Nav = () => {
 return <header className={s.header}>
-    <img src='img/header.jpg'  alt='logo' />
+    <div className={s.header_header}><p className={s.header_text}>Уроки React JS by Dimych</p></div>
 </header>
 
 }
