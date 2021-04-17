@@ -1,19 +1,6 @@
-.color_item {
-    display: block;
-    color: white;
-    font-size: 20px;
-    font-style: italic;
-    font-weight: bold;
-    text-align: center;
-}
-
-.dialogs_size img{
-    width: 450px;
-}
-
 .dialogs {
     display: grid;
-    grid-template-columns: 2fr 3fr 7fr;
+    grid-template-columns: 2fr 3fr 5fr;
 }
 
 .dialogsItems {
@@ -22,6 +9,19 @@
 
 .dialogsItems .active{
     color: gold;
+}
+
+.dialogs_size img{
+    width: 450px;
+}
+
+.color_item {
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
 }
 
 .messages {

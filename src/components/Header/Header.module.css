@@ -5,10 +5,9 @@
 
 .header_header {
     width: 1200px;
-    height:60px;
+    height: 60px;
     max-width: 1200px;
     background: linear-gradient(crimson, gold, yellowgreen, teal, crimson);
-    /*opacity: 0.1;*/
     background-position: 0 0;
     border-radius: 10px;
     border: 3px solid white;
@@ -19,12 +18,12 @@
 .header_text {
     margin: 0;
     padding: 0;
-    /*color: blueviolet ;*/
     color: #333333;
     font-size: 38px;
     font-style: italic;
     font-weight: bold;
     text-align: center;
+    border-shadowbox-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .9);
 }
 
 @keyframes background {
