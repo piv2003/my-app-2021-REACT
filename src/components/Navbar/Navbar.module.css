@@ -7,8 +7,8 @@
     background-color: lightseagreen;
 }
 
-.nav-list {
-    list-style: none;
+.nav_list {
+    /*list-style: none;*/
 }
 
 .item {
@@ -19,8 +19,9 @@
     background-color: aqua;
 }
 
-.item:active {
-    background-color: lightpink;
+.item a.activeLink {
+    color: gold;
+    text-decoration: none;
 }
 
 .item:focus {

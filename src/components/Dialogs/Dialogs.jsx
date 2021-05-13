@@ -10,7 +10,7 @@ const Dialogs = (props) => {
 
     return (
         <div className={s.dialogs}>
-            <div className={s.dialogsItems}>
+            <div className={s.dialogsItems} activeClassName={s.activeLink}>
                 {dialogsElements}
                 <div className={s.dialogs_size}>
                     <img src='img/dialog.jpg' alt='dialogs'/>
@@ -23,5 +23,5 @@ const Dialogs = (props) => {
     )
 }
 
-export default  Dialogs;
+export default Dialogs;
 

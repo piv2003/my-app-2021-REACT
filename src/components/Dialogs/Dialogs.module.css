@@ -1,15 +1,14 @@
 .dialogs {
     display: grid;
-    grid-template-columns: 2fr 3fr 4fr;
+    grid-template-columns: 1fr 7fr 4fr;
 }
 
 .dialogsItems {
     padding: 10px;
 }
 
-.dialogsItems:active {
-    color: gold;
-    /*font-size: 8px;*/
+.dialogs .activeLink {
+    color: blue;
 }
 
 .dialogs_size img{
