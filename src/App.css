@@ -1,23 +1,22 @@
 .app-wrapper {
-  width:1200px;
-  margin: 0 auto;
-  grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
-  display:grid;
-  grid-template-areas:
-            "h h"
-            "n c";
-  /*grid-gap: 10px;*/
+    width: 1200px;
+    margin: 0 auto;
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    display: grid;
+    grid-template-areas: "h h" "n c";
+    /*grid-gap: 10px;*/
 }
 
 .app-wrapper-content {
-  grid-area: c;
-  background-color: hotpink;
+    grid-area: c;
+    background-color: hotpink;
 }
- img {
-   border-radius: 10%;
-   box-shadow: 12px 12px 2px 1px rgba(0, 0, 0,0.3);
- }
+
+img {
+    border-radius: 10%;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.3);
+}
 
 
 

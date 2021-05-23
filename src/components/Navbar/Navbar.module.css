@@ -3,6 +3,7 @@
     background-color: lightyellow;
     transition-duration: 1s;
 }
+
 .nav:hover {
     background-color: lightseagreen;
 }
@@ -12,7 +13,7 @@
 }
 
 .item {
-    color:white;
+    color: white;
 }
 
 .item:hover {
@@ -20,11 +21,12 @@
 }
 
 .item a.activeLink {
-    color: gold;
+    color: darkgoldenrod;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .item:focus {
-    background-color: darkviolet ;
+    background-color: darkviolet;
 }
 

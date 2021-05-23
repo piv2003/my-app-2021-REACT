@@ -3,15 +3,20 @@
     grid-template-columns: 1fr 7fr 4fr;
 }
 
+.dialogs a {
+    text-decoration: none;
+}
+
 .dialogsItems {
-    padding: 10px;
+    padding: 20px;
 }
 
-.dialogs .activeLink {
-    color: blue;
+.dialogs a.activeLink {
+    color: darkgoldenrod;
+    font-weight: bold;
 }
 
-.dialogs_size img{
+.dialogs_img img {
     width: 450px;
     margin-top: 10px;
 }
@@ -26,5 +31,5 @@
 }
 
 .messages {
-    padding: 10px;
+    padding: 20px;
 }

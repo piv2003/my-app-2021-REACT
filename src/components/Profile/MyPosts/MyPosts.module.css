@@ -4,7 +4,7 @@
 }
 
 .content {
-    display:flex;
+    display: flex;
     align-content: flex-start;
     align-self: center;
     margin-bottom: 10px;
@@ -15,7 +15,7 @@
 }
 
 .color_button {
-    background-color: turquoise ;
+    background-color: turquoise;
 }
 
 .postsBlock {

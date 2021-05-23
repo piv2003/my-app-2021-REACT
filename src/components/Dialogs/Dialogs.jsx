@@ -10,9 +10,9 @@ const Dialogs = (props) => {
 
     return (
         <div className={s.dialogs}>
-            <div className={s.dialogsItems} activeClassName={s.activeLink}>
+            <div className={s.dialogsItems}>
                 {dialogsElements}
-                <div className={s.dialogs_size}>
+                <div className={s.dialogs_img}>
                     <img src='img/dialog.jpg' alt='dialogs'/>
                 </div>
             </div>
