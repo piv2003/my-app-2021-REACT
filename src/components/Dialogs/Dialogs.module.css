@@ -1,6 +1,9 @@
 .dialogs {
     display: grid;
-    grid-template-columns: 1fr 7fr 4fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr auto;
+    grid-template-areas: "h h h" "d i m";
+    margin: 0 auto;
 }
 
 .dialogs a {
@@ -9,6 +12,8 @@
 
 .dialogsItems {
     padding: 20px;
+    grid-area: d;
+    text-align: center;
 }
 
 .dialogs a.activeLink {
@@ -17,8 +22,10 @@
 }
 
 .dialogs_img img {
-    width: 450px;
+    width: 430px;
     margin-top: 10px;
+    grid-area: i;
+    margin-left: 30px;
 }
 
 .color_item {
@@ -28,8 +35,12 @@
     font-style: italic;
     font-weight: bold;
     text-align: center;
+    grid-area: h;
 }
 
 .messages {
     padding: 20px;
+    grid-area: m;
+    justify-self: start;
 }
+
