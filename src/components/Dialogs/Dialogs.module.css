@@ -44,3 +44,21 @@
     justify-self: start;
 }
 
+.content {
+    display: flex;
+    align-content: flex-start;
+    align-self: center;
+    margin-bottom: 10px;
+    padding:10px;
+}
+
+.size_textarea {
+    font-size: 14px;
+}
+
+.color_button {
+    background-color: turquoise;
+    width:70px;
+}
+
+

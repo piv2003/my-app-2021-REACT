@@ -9,7 +9,6 @@ const ProfileInfo = () => {
             </div>
             <div className={s.descriptionBlock}>
                 <img src='img/island.jpg' alt='beach'/><br/>
-                AVA+Description
             </div>
         </div>
     )
