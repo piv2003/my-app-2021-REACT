@@ -1,5 +1,5 @@
 let store = {
-    _state : {
+    _state: {
         profilePage: {
             posts: [
                 {id: 1, message: 'Hi, how are you?', likesCount: 12},
@@ -27,13 +27,18 @@ let store = {
         },
         sidebar: {}
     },
-    getState() {
-        debugger;
-        return this._state;
-    },
     _callSubscriber() {
         console.log('State changed');
     },
+
+    getState() {
+        // debugger;
+        return this._state;
+    },
+    subscribe(observer) {
+        this._callSubscriber = observer;
+    },
+
     addPost() {
         // debugger;
         let newPost = {
@@ -49,9 +54,10 @@ let store = {
         this._state.profilePage.newPostText = newText;
         this._callSubscriber(this._state);
     },
-    subscribe(observer) {
-        this._callSubscriber = observer;
-    }
+
+    dispatch(action) {
+    },
+
 }
 
 export default store;
